@@ -149,5 +149,22 @@ export const latexExpressions: LatexExpression[] = [
   {latex: 'L(x,\\lambda)=f(x)-\\sum_{i \\in E\\cup I}\\lambda_{i}c_{i}(x)', difficulty: 'medium', isUserSubmitted: true, expressionName: "Lagrange function"},
   {latex: '0=\\nabla_{x}L(x^{*},\\lambda^{*})=\\nabla f(x^{*})-\\sum \\limits_{i\\in A(x^{*})}\\lambda_{i}^{*}\\nabla c_{i}(x^{*})', difficulty: 'medium', isUserSubmitted: true, expressionName: "KKT conditions"},
   {latex: 'c \\equiv m^e \\pmod{n}', difficulty: 'medium', isUserSubmitted: true, expressionName: "RSA", submittedBy: "Triode"},
-  {latex: 'G = \\bigsqcup_{w \\in W} BwB', difficulty: 'hard', isUserSubmitted: true, expressionName: "Bruhat Decomposition"}
+  {latex: 'G = \\bigsqcup_{w \\in W} BwB', difficulty: 'hard', isUserSubmitted: true, expressionName: "Bruhat Decomposition"},
+  {latex: 'V(\\theta,t)=\\frac{1}{2}\\sum_{i=1}^{t} \\lambda^{t-i}\\lVert y(i)-\\rho^{T}(i)\\theta \\rVert ^{2}=\\dots', difficulty: 'medium', isUserSubmitted: true, expressionName: ""},
+  {latex: '\\varphi^{T}(t)   :=  \\frac{ \\partial h(\\theta,t)  }{ \\partial \\theta  }  |_{\\hat{\\theta}(t-1)} = \\frac{ \\partial h(\\hat{\\theta}(t-1),t) }{ \\partial \\theta }', difficulty: 'medium', isUserSubmitted: true, expressionName: ""},
+  {latex: 'M_{m+1}(N_{ij}):=M_{m}(N_{ij})-M_{m}^{*}\\exp \\{ -\\beta \\cdot d(N_{m}^{*}\\cdot N_{ij})\\}', difficulty: 'medium', isUserSubmitted: true, expressionName: ""},
+  {latex: '\\hat{y}=\\hat{f}(x)=\\frac{\\sum_{i=1}^{m} \\tau_{i} \\hat{y}_{i}}{\\sum_{i=1}^{m} \\tau_{i}}=\\sum_{i=1}^{m} \\tau_{i}^{*}\\hat{y}_{i}', difficulty: 'medium', isUserSubmitted: true, expressionName: ""},
+  {latex: '\\hat{y}=\\hat{f}(x)=\\frac{\\sum_{i=1}^{m} \\tau_{i} \\hat{y}_{i}}{\\sum_{i=1}^{m} \\tau_{i}}=\\sum_{i=1}^{m} \\tau_{i}^{*}\\hat{y}_{i}', difficulty: 'medium', isUserSubmitted: true, expressionName: ""},
+  {latex: '\\sum_{n=1}^{\\infty} \\frac{1}{n^s} = \\prod_{p} \\frac{1}{1 - p^{-s}}', difficulty: 'medium', isUserSubmitted: true, expressionName: "Eulerian Product"},
+  {latex: '\\int_{-\\infty}^{\\infty} e^{-x^2} dx = \\sqrt{\\pi}', difficulty: 'medium', isUserSubmitted: true, expressionName: "Gauss Integral"},
+  {latex: '\\frac{d^2 x^\\mu}{d\\tau^2} + \\Gamma^\\mu_{\\nu\\lambda} \\frac{dx^\\nu}{d\\tau} \\frac{dx^\\lambda}{d\\tau} = 0', difficulty: 'hard', isUserSubmitted: true, expressionName: "Geodesic Equation"},  
+  {latex: '\\frac{\\partial V}{\\partial t} + \\frac{1}{2}\\sigma^2 S^2 \\frac{\\partial^2 V}{\\partial S^2} + rS \\frac{\\partial V}{\\partial S} - rV = 0', difficulty: 'hard', isUserSubmitted: true, expressionName: "Black-Scholes Equation"},  
+  {latex: 'R_{\\mu  u} - \\frac{1}{2} g_{\\mu  u} R = \\frac{8\\pi G}{c^4} T_{\\mu  u}', difficulty: 'hard', isUserSubmitted: true, expressionName: "Einstein's Field Equations (short form)"},  
+  {latex: '\\frac{\\partial u}{\\partial t} + u \\frac{\\partial u}{\\partial x} + \\frac{\\partial^3 u}{\\partial x^3} = 0', difficulty: 'hard', isUserSubmitted: true, expressionName: "Korteweg-de Vries Equation"},  
+  {latex: '\\hat{H} |\\psi\\rangle = 0', difficulty: 'hard', isUserSubmitted: true, expressionName: "Wheeler-DeWitt Equation"},  
+  {latex: 'f(a) = \\frac{1}{2\\pi i} \\oint_\\gamma \\frac{f(z)}{z-a} dz', difficulty: 'hard', isUserSubmitted: true, expressionName: "Cauchy's Integral Formula"},  
+  {latex: '\\text{ind}(D) = \\int_M \\hat{A}(TM) \\wedge \\text{ch}(E)', difficulty: 'hard', isUserSubmitted: true, expressionName: "Atiyah-Singer Index Theorem"},  
+  {latex: '\\frac{\\partial f}{\\partial t} + \\mathbf{v} \\cdot \\nabla_{\\mathbf{r}} f + \\frac{\\mathbf{F}}{m} \\cdot \\nabla_{\\mathbf{v}} f = \\left(\\frac{\\partial f}{\\partial t}\\right){\\text{coll}}', difficulty: 'hard', isUserSubmitted: true, expressionName: "Boltzmann Transport Equation"},  
+  {latex: '\\partial\\mu F^{\\mu  u} + [A_\\mu, F^{\\mu  u}] = J^\\nu', difficulty: 'hard', isUserSubmitted: true, expressionName: "Yang-Mills Equations"},  
+  {latex: 'Z = \\text{Tr}(e^{-\\beta H})', difficulty: 'medium', isUserSubmitted: true, expressionName: "Partition Function in Quantum Statistical Mechanics"}
   ];
